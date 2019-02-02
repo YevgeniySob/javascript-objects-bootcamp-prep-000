@@ -1,3 +1,6 @@
 var playlist = { LinkinPark: 'Numb'}
 
-var updatePlaylist {playlist: 'rock', artistName: 'LP', songTitle: 'In The End'}
+function updatePlaylist(playlst, artistName, song){
+  playlst[artistName] = song
+  return playlst
+}
